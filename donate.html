@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Donation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .donate h2{
+            font-family: "Sedan SC", serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- navigation bar-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.f.png" width="355" height="127" alt="image"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html"><b>HOME</b></a></li>
+                    <li><a href="about.html"><b>ABOUT US</b></a></li>
+                    <li><a href="services.html"><b>OUR SERVICES</b> </a></li>
+                    <li><a href="contact.html"><b>CONTACT US</b></a></li>
+                </ul>
+            </div>
+        </nav>
+    <!-- end of navigation -->
+    <!-- form-->
+    <div class="donate">
+        <h2>Donate here!</h2>
+        <div class="payment">
+            <form action="container">
+                <h3>Name</h3>
+                <div class="input-field">
+                    <input type="text" required>
+                </div>
+                <h3>Email</h3>
+                <div class="input-field">
+                   <input type="email" required>
+                </div>
+                <h3>Contact number</h3>
+                <div class="input-field">
+                   <input type="text" required>
+                </div>
+                <h3> Donating amount</h3>
+                <div class="input-field">
+                <input type="number" required>
+                </div>
+                <div class="card">
+                    <h3>Card Number</h3>
+                    <div class="input-field">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="first-row">
+                   <div class="CVV">
+                        <h3>cvv</h3>
+                           <div class="input-field">
+                                <input type="text">
+                            </div>
+                    </div>
+                    <div class="expiry">
+                         <h3>Expiry Date</h3>
+                        <div class="selection">
+                            <div class="date">
+                             <select name="date" id="date">
+                                <option id="01">01</option>
+                                <option id="02">02</option>
+                                <option id="03">03</option>
+                                <option id="04">04</option>
+                                <option id="05">05</option>
+                                <option id="06">06</option>
+                                <option id="07">07</option>
+                                <option id="08">08</option>
+                                <option id="09">09</option>
+                                <option id="10">10</option>
+                                <option id="11">11</option>
+                                <option id="12">12</option>
+                                <option id="13">13</option>
+                                <option id="14">14</option>
+                                <option id="15">15</option>
+
+                             </select>
+                             <select name="months" id="months">
+                                <option value="jan">jan</option>
+                                <option value="feb">feb</option>
+                                <option value="mar">mar</option>
+                                <option value="apr">apr</option>
+                                <option value="may">may</option>
+                                <option value="jun">jun</option>
+                                <option value="jul">jul</option>
+                                <option value="aug">aug</option>
+                                <option value="sep">sep</option>
+                                <option value="oct">oct</option>
+                                <option value="nov">nov</option>
+                                <option value="dec">dec</option>
+
+                             </select>
+                             <select name="year" id="year">                               
+                                <option value="2026">2026</option>
+                                <option value="2025">2025</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                             </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-top: 30px;">
+                        <img src="images/card1.jpg" width="80" height="50" alt="image">
+                        <img src="images/card2.png" width="60" height="60" alt="image">
+                        <img src="images/card3.jpg" width="80" height="50" alt="image">
+                    </div>
+                </div>
+    <!--end of form-->
+                <div class="ojj">
+                  <button type="submit" class="b1"><b>Confirm Payment</b></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </section>
+</body>
+</html>

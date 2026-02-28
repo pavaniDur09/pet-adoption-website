@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<section class="header">
+    <!-- navigation bar -->
+     <nav>
+        <a href="index.html"><img src="images/logo.f.png" width="355" height="127" alt="image"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html"><b>HOME</b></a></li>
+                <li><a href="about.html"><b>ABOUT US</b></a></li>
+                <li><a href="services.html"><b>OUR SERVICES</b> </a></li>
+                <li><a href="contact.html"><b>CONTACT US</b></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end of navigation bar -->
+    <div class="contact-us">
+        <div class="contact1">
+            <h1>CONTACT  FOR-THE-PAWS</h1>
+            <p>London, England.<br>
+            <b>Mobile:</b> +44 6238554369<br>
+            <b>General office email:</b>  <a href="office@four-the-paws.org.uk">office@four-the-paws.org.uk</a><br>
+            <b>Supporter enquiries email:</b> <a href="supportercare@four-the-paws.org.uk" >supportercare@four-the-paws.org.uk</a></p>
+        </div>
+        <!-- form-->
+        <div class="contact2">
+            <h2>Tell us who you are!</h2>
+            <p>Submit your details to contact or support us.Your support means the world to us. Contact us today to learn how you
+             can make a difference in the lives of animals in need. Together, we can create a brighter future for pets everywhere.</p>
+            <form class="form" onsubmit="return clickmessage()">
+                <div id="error"></div>
+                <input id="Name" type="text" placeholder="Enter your name" required>
+                <input id="mail" type="email" placeholder="Enter email address" required>
+                <input id="number" type="text" placeholder="Enter your contact number" required>
+                <textarea id="text" rows="15" placeholder="Message / Comment" required></textarea>
+                <button type="submit" class="b1" style="text-align: center;">Submit your Details</button>    
+            </form> 
+        </div>
+        <!-- form-->
+            <h2>Help and Support Us by <a href="donate.html">Donating!</a></h2>
+    </div>
+    <script language="javascript">
+        function clickmessage(){
+            alert('you have sucessfully submitted your details');
+        }
+    </script>
+</section>
+</body>
+</html>
